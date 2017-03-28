@@ -1,0 +1,9 @@
+public class SumOfTwoNumbers
+{
+  public static void main(String s[])
+  {
+  int a=10,b=10,ans;
+  ans=a-(-b);
+  System.out.println("ans is"+ans);
+  }
+  }
