@@ -1,0 +1,16 @@
+public class SwapTwoVariables
+{
+public static void main(String s[])
+{
+int num1=10,num2=20;
+System.out.println("Before Swapping");
+System.out.println("value os num1 is:" +num1);
+System.out.println("value of num2 is:" +num2);
+num1=num1+num2;
+num2=num1-num2;
+num1=num1-num2;
+System.out.println("After Swappimg");
+System.out.println("value os num1 is:" +num1);
+System.out.println("value of num2 is:" +num2);
+}
+}
