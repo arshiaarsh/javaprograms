@@ -1,0 +1,12 @@
+public class Expression
+{
+public static void main(String s[])
+{
+int a=30, b=20;
+b=a-- - --a;
+int c=a--;
+int d=a>>2;
+int e=a&b;
+System.out.println(a+" " +b+" " +c+" " + " "+e);
+}
+}
