@@ -1,0 +1,18 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class FormatDate {
+  public static void main(String[] args) {
+    String pattern = "yyyy,MM,dd";
+    SimpleDateFormat format = new SimpleDateFormat(pattern);
+    try {
+      Date date = format.parse("5,3,2017");
+      System.out.println(date);
+    } catch (ParseException e) {
+      e.printStackTrace();
+    }
+    // formatting
+    System.out.println(format.format(new Date()));
+  }
+}
