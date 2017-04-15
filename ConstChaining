@@ -1,0 +1,41 @@
+
+public class classConst
+{
+
+public static void main(String s[]){
+}
+class Const
+
+{
+
+  Const()  //default constructor
+
+  {
+
+    this(10);
+    System.out.println("default constructor");
+
+  }
+
+  Const(int x)  //one parameter constructor
+
+  {
+
+    this(10,20);
+    System.out.println("value of x is" +x);
+
+  }
+
+  Const(int x,int y)  //two parameter constructor
+
+  {
+
+    System.out.println("Add result is" +(x+y));
+
+  }
+
+}
+}
+
+
+
